@@ -7,13 +7,13 @@
 %define	pnam	Preferred
 Summary:	Lingua::Preferred - Perl extension to choose a language
 Name:		perl-Lingua-Preferred
-Version:	0.2
+Version:	0.2.4
 Release:	1
 # assuming same as perl, as not specified in sources
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a67d47ac660cb7eb58417f0dd3436c4c
+# Source0-md5:	37e883fafb05b1439de1121f41e8ad75
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Log-TraceMessages >= 1.0
 BuildRequires:	rpm-perlprov >= 4.1-13
