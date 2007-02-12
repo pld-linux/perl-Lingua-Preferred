@@ -6,7 +6,7 @@
 %define	pdir	Lingua
 %define	pnam	Preferred
 Summary:	Lingua::Preferred - Perl extension to choose a language
-Summary(pl):	Lingua::Preferred - rozszerzenie Perla do wybierania jêzyka
+Summary(pl.UTF-8):   Lingua::Preferred - rozszerzenie Perla do wybierania jÄ™zyka
 Name:		perl-Lingua-Preferred
 Version:	0.2.4
 Release:	1
@@ -29,13 +29,13 @@ pick the best language of those available. Different 'dialects' given
 by the 'territory' part of the language specifier (such as en, en_GB,
 and en_US) are also supported.
 
-%description -l pl
-Czêsto informacje czytelne dla cz³owieka s± dostêpne w wiêcej ni¿
-jednym jêzyku. Którego z nich nale¿y u¿yæ? Ten modu³ udostêpnia metodê
-do przekazywania przez u¿ytkownika mo¿liwych jêzyków w kolejno¶ci
-preferencji, a nastêpnie wyboru najlepszego jêzyka spo¶ród dostêpnych.
-Ró¿ne "dialekty" podane przez czê¶æ "terytorialn±" okre¶lenia jêzyka
-(takie jak en, en_GB i en_US) tak¿e s± obs³ugiwane.
+%description -l pl.UTF-8
+CzÄ™sto informacje czytelne dla czÅ‚owieka sÄ… dostÄ™pne w wiÄ™cej niÅ¼
+jednym jÄ™zyku. KtÃ³rego z nich naleÅ¼y uÅ¼yÄ‡? Ten moduÅ‚ udostÄ™pnia metodÄ™
+do przekazywania przez uÅ¼ytkownika moÅ¼liwych jÄ™zykÃ³w w kolejnoÅ›ci
+preferencji, a nastÄ™pnie wyboru najlepszego jÄ™zyka spoÅ›rÃ³d dostÄ™pnych.
+RÃ³Å¼ne "dialekty" podane przez czÄ™Å›Ä‡ "terytorialnÄ…" okreÅ›lenia jÄ™zyka
+(takie jak en, en_GB i en_US) takÅ¼e sÄ… obsÅ‚ugiwane.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
