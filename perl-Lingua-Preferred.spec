@@ -9,7 +9,7 @@ Summary:	Lingua::Preferred - Perl extension to choose a language
 Summary(pl.UTF-8):	Lingua::Preferred - rozszerzenie Perla do wybierania języka
 Name:		perl-Lingua-Preferred
 Version:	0.2.4
-Release:	1
+Release:	2
 # assuming same as perl, as not specified in sources
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
