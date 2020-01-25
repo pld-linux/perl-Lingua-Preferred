@@ -4,7 +4,6 @@
 
 %define	pdir	Lingua
 %define	pnam	Preferred
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::Preferred - Perl extension to choose a language
 Summary(pl.UTF-8):	Lingua::Preferred - rozszerzenie Perla do wybierania języka
 Name:		perl-Lingua-Preferred
